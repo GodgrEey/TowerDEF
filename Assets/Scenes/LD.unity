@@ -31185,24 +31185,24 @@ MonoBehaviour:
     subWaveList:
     - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 0
-      spawnCount: 5
+      spawnCount: 3
       spacing: 0.75
       path: {fileID: 1372143676}
       HP: -1
       SH: -1
       speed: -1
       overrideRscGain: 1
-      rscGain: 0200000000000000
+      rscGain: 0100000000000000
     - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 0
-      spawnCount: 1
+      spawnCount: 3
       spacing: 1
       path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
-      overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      overrideRscGain: 1
+      rscGain: 0100000001000000
     timeToNextWave: 12
     activeUnitCount: 0
     spawned: 0

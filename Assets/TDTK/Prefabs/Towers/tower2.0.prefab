@@ -113,8 +113,8 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 9
   instanceID: -1
-  unitName: Tower2.0
-  icon: {fileID: 21300048, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+  unitName: Mortier
+  icon: {fileID: 21300028, guid: d138993b3dd86764ba142a07cff82937, type: 3}
   desp: unit description
   canBeAttacked: 1
   canBeTargeted: 1
@@ -136,12 +136,12 @@ MonoBehaviour:
     sellDuration: 1
     expToNextUpgrade: 10
     cost:
-    - 20
+    - 35
     - 0
     sellValue:
+    - 15
     - 0
-    - 0
-    hp: 40
+    hp: 30
     sh: 0
     shRegen: 0.5
     shStagger: 3
@@ -156,9 +156,9 @@ MonoBehaviour:
     hit: 1
     damageMin: 2
     damageMax: 2
-    attackRange: 4
-    aoeRange: 0
-    cooldown: 0.7
+    attackRange: 3
+    aoeRange: 1
+    cooldown: 0.95
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
@@ -191,7 +191,7 @@ MonoBehaviour:
     rscGain: []
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 114266115900946412, guid: 09a463b997518ca4ba2b0574c697a0c1, type: 3}
+  shootObject: {fileID: 114266115900946412, guid: cfbe6720ccbdd0947939be5cb4a41edc, type: 3}
   shootPoint: []
   shootPointSpacing: 0.2
   shootEffObj_AOE:
