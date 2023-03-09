@@ -159,7 +159,7 @@ MonoBehaviour:
     cost: []
     sellValue: []
     hp: 8
-    sh: 0
+    sh: 3
     shRegen: 0.5
     shStagger: 3
     hpRate: 0
