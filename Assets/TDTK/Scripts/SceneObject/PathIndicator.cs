@@ -36,7 +36,7 @@ namespace TDTK{
 				path1.SetActive(false);
 				path2.SetActive(true);
 			}
-			if(SpawnManager.GetCurrentWaveIndex() ==3)
+			if(SpawnManager.GetCurrentWaveIndex() ==2)
 			{
 				path1.SetActive(true);
 				path2.SetActive(false);

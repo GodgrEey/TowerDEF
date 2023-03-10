@@ -10304,10 +10304,10 @@ MonoBehaviour:
   path: {fileID: 773669663}
   rend: {fileID: 219171907}
   scrollSpeed: 2
-  path1: {fileID: 0}
-  path2: {fileID: 0}
-  path3: {fileID: 0}
-  path4: {fileID: 0}
+  path1: {fileID: 1157147308}
+  path2: {fileID: 219171904}
+  path3: {fileID: 731686290}
+  path4: {fileID: 2003782476}
 --- !u!120 &219171907
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -30961,10 +30961,10 @@ MonoBehaviour:
   path: {fileID: 311485435}
   rend: {fileID: 731686293}
   scrollSpeed: 2
-  path1: {fileID: 0}
-  path2: {fileID: 0}
-  path3: {fileID: 0}
-  path4: {fileID: 0}
+  path1: {fileID: 1157147308}
+  path2: {fileID: 219171904}
+  path3: {fileID: 731686290}
+  path4: {fileID: 2003782476}
 --- !u!120 &731686293
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -122830,10 +122830,10 @@ MonoBehaviour:
   path: {fileID: 1372143676}
   rend: {fileID: 2003782479}
   scrollSpeed: 2
-  path1: {fileID: 0}
-  path2: {fileID: 0}
-  path3: {fileID: 0}
-  path4: {fileID: 0}
+  path1: {fileID: 1157147308}
+  path2: {fileID: 219171904}
+  path3: {fileID: 731686290}
+  path4: {fileID: 2003782476}
 --- !u!120 &2003782479
 LineRenderer:
   m_ObjectHideFlags: 0
