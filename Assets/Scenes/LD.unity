@@ -43237,7 +43237,7 @@ MonoBehaviour:
   rsc: 100
   rscCap: 100
   rscRegenRate: 1.5
-  unavailablePrefabIDList: 00000000
+  unavailablePrefabIDList: 00000000010000000200000003000000
   abilityList: []
   tgtSelectIndicator: {fileID: 4747208978708652, guid: 970266dfcfcc4e24cbbf18134d8dbcef, type: 3}
   activeTgtSelectIndicator: {fileID: 0}
@@ -50471,7 +50471,7 @@ MonoBehaviour:
   cacheOnRestart: 0
   useRscManagerForCost: 0
   rsc: 3
-  unavailablePrefabIDList: 
+  unavailablePrefabIDList: 08000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001400000013000000
   purchasedPrefabIDList: 
   perkList: []
 --- !u!1 &1151480826
@@ -52178,7 +52178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridSize: 1
   autoAdjustTextureToGrid: 1
-  unavailablePrefabIDList: 0500000006000000
+  unavailablePrefabIDList: 0500000009000000
   buildableList: []
   sampleList: []
   activeTowerList: []
