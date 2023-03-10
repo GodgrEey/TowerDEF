@@ -331,7 +331,7 @@ MonoBehaviour:
     sellValue:
     - 0
     - 0
-    hp: 30
+    hp: 10
     sh: 0
     shRegen: 0.5
     shStagger: 3
@@ -344,8 +344,8 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 2
-    damageMax: 2
+    damageMin: 3
+    damageMax: 3
     attackRange: 3
     aoeRange: 2
     cooldown: 0.85
