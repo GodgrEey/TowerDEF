@@ -10268,7 +10268,7 @@ GameObject:
   - component: {fileID: 219171907}
   - component: {fileID: 219171906}
   m_Layer: 0
-  m_Name: PathIndicator
+  m_Name: PathIndicator_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10287,7 +10287,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 813991659}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &219171906
 MonoBehaviour:
@@ -10304,6 +10304,10 @@ MonoBehaviour:
   path: {fileID: 773669663}
   rend: {fileID: 219171907}
   scrollSpeed: 2
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  path4: {fileID: 0}
 --- !u!120 &219171907
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -28536,6 +28540,10 @@ MonoBehaviour:
   path: {fileID: 1100933312}
   rend: {fileID: 631699254}
   scrollSpeed: 2
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  path4: {fileID: 0}
 --- !u!120 &631699254
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -30917,7 +30925,7 @@ GameObject:
   - component: {fileID: 731686293}
   - component: {fileID: 731686292}
   m_Layer: 0
-  m_Name: PathIndicator 3
+  m_Name: PathIndicator_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30953,6 +30961,10 @@ MonoBehaviour:
   path: {fileID: 311485435}
   rend: {fileID: 731686293}
   scrollSpeed: 2
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  path4: {fileID: 0}
 --- !u!120 &731686293
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -31216,11 +31228,21 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 114089636255029794, guid: 930e6406997a27542a548b66c144e9b5, type: 3}
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 0
-      spawnCount: 6
-      spacing: 0.75
-      path: {fileID: 0}
+      spawnCount: 4
+      spacing: 1
+      path: {fileID: 773669663}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 2
+      spacing: 1
+      path: {fileID: 1372143676}
       HP: -1
       SH: -1
       speed: -1
@@ -31239,11 +31261,77 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 114548261379056564, guid: 315d6b468e677c94aa54b5c2c3f8bd16, type: 3}
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 6
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    timeToNextWave: 5
+    activeUnitCount: 0
+    spawned: 0
+    cleared: 0
+    clean: 1
+    rscGainOnCleared:
+    - 0
+    - 0
+    perkRscGainOnCleared: 0
+    abilityRscGainOnCleared: 0
+    lifeGainOnCleared: 0
+  - waveIdx: -1
+    subWaveList:
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 6
+      spacing: 0.75
+      path: {fileID: 773669663}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 2
+      spacing: 1
+      path: {fileID: 1372143676}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 1
+      spacing: 1
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    timeToNextWave: 5
+    activeUnitCount: 0
+    spawned: 0
+    cleared: 0
+    clean: 1
+    rscGainOnCleared:
+    - 0
+    - 0
+    perkRscGainOnCleared: 0
+    abilityRscGainOnCleared: 0
+    lifeGainOnCleared: 0
+  - waveIdx: -1
+    subWaveList:
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 0
       spawnCount: 4
       spacing: 1.2
-      path: {fileID: 0}
+      path: {fileID: 1372143676}
       HP: -1
       SH: -1
       speed: -1
@@ -31262,11 +31350,11 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 114089636255029794, guid: 930e6406997a27542a548b66c144e9b5, type: 3}
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 0
       spawnCount: 8
       spacing: 1
-      path: {fileID: 0}
+      path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
@@ -31285,11 +31373,41 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 114762694574170050, guid: dce61169ecc869f4594a7e45d0265c7a, type: 3}
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
       delay: 4
       spawnCount: 10
       spacing: 1.2
-      path: {fileID: 0}
+      path: {fileID: 1372143676}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 1
+      spacing: 1
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 4
+      spacing: 1
+      path: {fileID: 773669663}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+      delay: 0
+      spawnCount: 4
+      spacing: 1
+      path: {fileID: 311485435}
       HP: -1
       SH: -1
       speed: -1
@@ -38224,8 +38342,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1508894872}
-  - {fileID: 219171905}
   - {fileID: 1157147309}
+  - {fileID: 219171905}
   - {fileID: 731686291}
   - {fileID: 2003782477}
   - {fileID: 1922220746}
@@ -44768,6 +44886,10 @@ MonoBehaviour:
   path: {fileID: 20695853}
   rend: {fileID: 1107759322}
   scrollSpeed: 2
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  path4: {fileID: 0}
 --- !u!120 &1107759322
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -50636,8 +50758,9 @@ GameObject:
   - component: {fileID: 1157147309}
   - component: {fileID: 1157147311}
   - component: {fileID: 1157147310}
+  - component: {fileID: 1157147312}
   m_Layer: 0
-  m_Name: PathIndicator 2
+  m_Name: PathIndicator_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50656,7 +50779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 813991659}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1157147310
 MonoBehaviour:
@@ -50673,6 +50796,10 @@ MonoBehaviour:
   path: {fileID: 1004142431}
   rend: {fileID: 1157147311}
   scrollSpeed: 2
+  path1: {fileID: 1157147308}
+  path2: {fileID: 219171904}
+  path3: {fileID: 731686290}
+  path4: {fileID: 2003782476}
 --- !u!120 &1157147311
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -50772,6 +50899,21 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1157147312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157147308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1157634089
 GameObject:
   m_ObjectHideFlags: 0
@@ -122652,7 +122794,7 @@ GameObject:
   - component: {fileID: 2003782479}
   - component: {fileID: 2003782478}
   m_Layer: 0
-  m_Name: PathIndicator 4
+  m_Name: PathIndicator_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122688,6 +122830,10 @@ MonoBehaviour:
   path: {fileID: 1372143676}
   rend: {fileID: 2003782479}
   scrollSpeed: 2
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  path4: {fileID: 0}
 --- !u!120 &2003782479
 LineRenderer:
   m_ObjectHideFlags: 0

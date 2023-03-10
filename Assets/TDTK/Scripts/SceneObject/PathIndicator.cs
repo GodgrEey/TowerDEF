@@ -10,12 +10,15 @@ namespace TDTK{
 		
 		public Path path;
 		public LineRenderer rend;
-		
+
 		[HideInInspector] public float scrollSpeed = 0.5F;
 		
 		private Path nextPath;
 		
-		
+		public GameObject path1;
+		public GameObject path2;
+		public GameObject path3;
+		public GameObject path4;
 		void Start(){
 			UpdatePath();
 		}
@@ -23,7 +26,22 @@ namespace TDTK{
 		void Update () {
 			float offset = Time.time * -scrollSpeed;
 			rend.material.mainTextureOffset=new Vector2(offset, 0);
-			
+			if(SpawnManager.GetCurrentWaveIndex() ==0)
+			{
+				path3.SetActive(false);
+				path2.SetActive(false);
+			}
+			if(SpawnManager.GetCurrentWaveIndex() ==1)
+			{
+				path1.SetActive(false);
+				path2.SetActive(true);
+			}
+			if(SpawnManager.GetCurrentWaveIndex() ==3)
+			{
+				path1.SetActive(true);
+				path2.SetActive(false);
+				path4.SetActive(false);
+			}
 			//rend.material.mainTextureScale=new Vector2(dist*0.2f, 1);
 		}
 		
