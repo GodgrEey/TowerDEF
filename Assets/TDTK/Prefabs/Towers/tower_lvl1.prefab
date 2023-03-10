@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4431811530253403771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.74620247, z: 0}
+  m_LocalPosition: {x: -0, y: 1.192, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,7 +102,7 @@ MonoBehaviour:
   instanceID: -1
   unitName: feu1
   icon: {fileID: 21300028, guid: d138993b3dd86764ba142a07cff82937, type: 3}
-  desp: unit description
+  desp: tour 2 feu
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
@@ -146,66 +146,6 @@ MonoBehaviour:
     attackRange: 3
     aoeRange: 2
     cooldown: 0.95
-    critChance: 0
-    critMultiplier: 0
-    effectOnHitChance: 1
-    overrideExistingEffect: 0
-    effectOnHitIDList: 
-    hit_AOE: 1
-    damageMin_AOE: 2
-    damageMax_AOE: 2
-    attackRange_AOE: 2
-    cooldown_AOE: 1
-    critChance_AOE: 0
-    critMultiplier_AOE: 0
-    effectOnHitChance_AOE: 1
-    overrideExistingEffect_AOE: 0
-    effectOnHitIDList_AOE: 
-    hit_Mine: 1
-    damageMin_Mine: 2
-    damageMax_Mine: 2
-    aoeRange_Mine: 0
-    cooldown_Mine: 1
-    critChance_Mine: 0
-    critMultiplier_Mine: 0
-    effectOnHitChance_Mine: 1
-    overrideExistingEffect_Mine: 0
-    effectOnHitIDList_Mine: 
-    attackRange_Support: 2
-    overrideExistingEffect_Support: 0
-    effectOnHitIDList_Support: 
-    cooldown_Rsc: 1
-    rscGain: []
-  - editTurret: 1
-    editAOE: 0
-    editMine: 0
-    buildDuration: 1
-    sellDuration: 1
-    expToNextUpgrade: 10
-    cost:
-    - 50
-    - 0
-    sellValue:
-    - 30
-    - 0
-    hp: 30
-    sh: 0
-    shRegen: 0.5
-    shStagger: 3
-    hpRate: 0
-    shRate: 0
-    armorType: 0
-    damageType: 0
-    speed: 3
-    dodge: 0
-    dmgReduc: 0
-    critReduc: 0
-    hit: 1
-    damageMin: 2
-    damageMax: 2
-    attackRange: 3
-    aoeRange: 2
-    cooldown: 0.85
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
