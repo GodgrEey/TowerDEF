@@ -28,8 +28,8 @@ namespace TDTK{
 			rend.material.mainTextureOffset=new Vector2(offset, 0);
 			if(SpawnManager.GetCurrentWaveIndex() ==0)
 			{
-				path3.SetActive(false);
-				path2.SetActive(false);
+				path1.SetActive(false);
+				path4.SetActive(false);
 			}
 			if(SpawnManager.GetCurrentWaveIndex() ==1)
 			{

@@ -29952,36 +29952,26 @@ MonoBehaviour:
   waveList:
   - waveIdx: 0
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 3
       spacing: 0.75
-      path: {fileID: 1372143676}
+      path: {fileID: 311485435}
       HP: -1
       SH: -1
       speed: -1
       overrideRscGain: 1
       rscGain: 0100000000000000
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
-      spawnCount: 3
+      spawnCount: 1
       spacing: 1
-      path: {fileID: 1004142431}
+      path: {fileID: 773669663}
       HP: -1
       SH: -1
       speed: -1
       overrideRscGain: 1
       rscGain: 0100000001000000
-    - prefab: {fileID: -7137104110231022439, guid: 342bed07f6a72a0458a143c7d1955866, type: 3}
-      delay: 1
-      spawnCount: 2
-      spacing: 1
-      path: {fileID: 1372143676}
-      HP: -1
-      SH: -1
-      speed: -1
-      overrideRscGain: 0
-      rscGain: ffffffffffffffff
     timeToNextWave: 12
     activeUnitCount: 0
     spawned: 0
@@ -29995,7 +29985,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 4
       spacing: 1
@@ -30028,7 +30018,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 0
       spawnCount: 6
       spacing: 2
@@ -30051,7 +30041,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 0
       spawnCount: 6
       spacing: 0.75
@@ -30061,7 +30051,7 @@ MonoBehaviour:
       speed: -1
       overrideRscGain: 0
       rscGain: ffffffffffffffff
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 0
       spawnCount: 2
       spacing: 1
@@ -30071,7 +30061,7 @@ MonoBehaviour:
       speed: -1
       overrideRscGain: 0
       rscGain: ffffffffffffffff
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 0
       spawnCount: 1
       spacing: 1
@@ -30094,7 +30084,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 4
       spacing: 1.2
@@ -30117,7 +30107,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 8
       spacing: 1
@@ -30140,7 +30130,7 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 4
       spawnCount: 10
       spacing: 1.2
@@ -30150,7 +30140,7 @@ MonoBehaviour:
       speed: -1
       overrideRscGain: 0
       rscGain: ffffffffffffffff
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 0
       spawnCount: 1
       spacing: 1
@@ -30160,7 +30150,7 @@ MonoBehaviour:
       speed: -1
       overrideRscGain: 0
       rscGain: ffffffffffffffff
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 0
       spawnCount: 4
       spacing: 1
@@ -30170,7 +30160,7 @@ MonoBehaviour:
       speed: -1
       overrideRscGain: 0
       rscGain: ffffffffffffffff
-    - prefab: {fileID: 8192360328580587157, guid: ac12e1448f9a38a4c98477ac0cf2d156, type: 3}
+    - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 0
       spawnCount: 4
       spacing: 1
