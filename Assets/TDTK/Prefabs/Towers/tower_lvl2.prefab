@@ -303,8 +303,8 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 9
   instanceID: -1
-  unitName: Feu2
-  icon: {fileID: 21300004, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+  unitName: "Tour \xE9l\xE9mentaire de feu LVL2"
+  icon: {fileID: 21300028, guid: d138993b3dd86764ba142a07cff82937, type: 3}
   desp: unit description
   canBeAttacked: 1
   canBeTargeted: 1
@@ -346,7 +346,7 @@ MonoBehaviour:
     hit: 1
     damageMin: 3
     damageMax: 3
-    attackRange: 3
+    attackRange: 3.5
     aoeRange: 2
     cooldown: 0.85
     critChance: 0
