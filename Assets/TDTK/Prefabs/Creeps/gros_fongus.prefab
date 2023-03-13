@@ -405,7 +405,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   soundSpawn: {fileID: 0}
-  soundDestroyed: {fileID: 0}
+  soundDestroyed: {fileID: 8300000, guid: 32a8d594e4b1bfe488bddbadd120c339, type: 3}
   soundDestination: {fileID: 0}
   supportTgtList: []
   supportSrcList: []
