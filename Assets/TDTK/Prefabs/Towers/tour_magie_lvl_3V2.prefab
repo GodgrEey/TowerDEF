@@ -134,7 +134,7 @@ MonoBehaviour:
     hpRate: 0
     shRate: 0
     armorType: 0
-    damageType: 0
+    damageType: 1
     speed: 3
     dodge: 0
     dmgReduc: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     critMultiplier: 0
     effectOnHitChance: 1
     overrideExistingEffect: 0
-    effectOnHitIDList: 
+    effectOnHitIDList: 05000000
     hit_AOE: 1
     damageMin_AOE: 2
     damageMax_AOE: 2
