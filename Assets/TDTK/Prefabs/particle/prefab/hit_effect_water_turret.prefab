@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7863165623157856228}
   m_Layer: 0
-  m_Name: buble_hit_effect
+  m_Name: hit_effect_water_turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
