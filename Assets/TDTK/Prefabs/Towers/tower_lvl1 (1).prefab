@@ -49,7 +49,7 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 8
   instanceID: -1
-  unitName: Feu1
+  unitName: "Tour \xE9l\xE9mentaire de feu"
   icon: {fileID: 21300028, guid: d138993b3dd86764ba142a07cff82937, type: 3}
   desp: unit description
   canBeAttacked: 1
@@ -90,11 +90,11 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 1
-    damageMax: 1
-    attackRange: 3
+    damageMin: 2.5
+    damageMax: 2.5
+    attackRange: 3.5
     aoeRange: 2
-    cooldown: 0.95
+    cooldown: 1.5
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1

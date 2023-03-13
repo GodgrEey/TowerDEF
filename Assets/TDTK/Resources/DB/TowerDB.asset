@@ -23,6 +23,9 @@ MonoBehaviour:
   - {fileID: 1239107217020288, guid: bf71c92a2333dd847b76d90dcdebb3cc, type: 3}
   - {fileID: 2961155182672067522, guid: 5a976b2b449e0b446bfc5b6f9158c8f7, type: 3}
   - {fileID: 1186147917745739739, guid: 7f4705d8c46d806478e72488f70119cc, type: 3}
+  - {fileID: 7974788258103407515, guid: abdf1eaa1fcd55c4b81902e936a89bf9, type: 3}
+  - {fileID: 2500054195411035223, guid: 487e8a7ea4ee8d04da51f092225a4073, type: 3}
+  - {fileID: 2515923459729955726, guid: d2194fa08a243c843bc64b7c7632687b, type: 3}
   towerList:
   - {fileID: 114825332541157422, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
   - {fileID: 114541810645508154, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
@@ -34,4 +37,7 @@ MonoBehaviour:
   - {fileID: 114541810645508154, guid: bf71c92a2333dd847b76d90dcdebb3cc, type: 3}
   - {fileID: 1727868531191017715, guid: 5a976b2b449e0b446bfc5b6f9158c8f7, type: 3}
   - {fileID: 6372875096741249839, guid: 7f4705d8c46d806478e72488f70119cc, type: 3}
+  - {fileID: -7049490591288972455, guid: abdf1eaa1fcd55c4b81902e936a89bf9, type: 3}
+  - {fileID: -3172443544919972889, guid: 487e8a7ea4ee8d04da51f092225a4073, type: 3}
+  - {fileID: -8854244610298436340, guid: d2194fa08a243c843bc64b7c7632687b, type: 3}
   copiedFromOldDB: 1

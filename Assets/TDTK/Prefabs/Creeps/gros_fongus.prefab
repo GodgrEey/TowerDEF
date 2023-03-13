@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2888827033415052536
+--- !u!1 &4479977553190530194
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2638555272786475050}
-  - component: {fileID: 7731171731950651911}
-  - component: {fileID: 6412947593834300486}
-  - component: {fileID: 4853120326636036263}
-  - component: {fileID: -7137104110231022439}
+  - component: {fileID: 3848259317532030504}
+  - component: {fileID: 200437536439040397}
+  - component: {fileID: 2678779389470739783}
+  - component: {fileID: -1775669940590929717}
   m_Layer: 0
-  m_Name: midman
+  m_Name: gros_fongus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2638555272786475050
+--- !u!4 &3848259317532030504
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888827033415052536}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.93695, y: 3.0786502, z: -1.2273184}
-  m_LocalScale: {x: 0.53154, y: 0.53154, z: 0.53154}
+  m_GameObject: {fileID: 4479977553190530194}
+  m_LocalRotation: {x: 6.736771e-17, y: 0.99438614, z: 6.736771e-17, w: -0.105812065}
+  m_LocalPosition: {x: -7.9800973, y: -0.09999877, z: 8.449032}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7731171731950651911
+--- !u!33 &200437536439040397
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888827033415052536}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6412947593834300486
+  m_GameObject: {fileID: 4479977553190530194}
+  m_Mesh: {fileID: 4731178494142786740, guid: 68eb693e0cbd22c4294b881e1388c13b, type: 3}
+--- !u!23 &2678779389470739783
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888827033415052536}
+  m_GameObject: {fileID: 4479977553190530194}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -63,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d660e773953f64244a3b74e193acf188, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,36 +84,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &4853120326636036263
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888827033415052536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-7137104110231022439
+--- !u!114 &-1775669940590929717
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2888827033415052536}
+  m_GameObject: {fileID: 4479977553190530194}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada439c2f3a47e244a950787d03c6653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 8
+  prefabID: 11
   instanceID: -1
-  unitName: Midman
-  icon: {fileID: 21300000, guid: cdb88fdb0cf46b244a667edaff21c7df, type: 3}
+  unitName: gros_fongus
+  icon: {fileID: 21300010, guid: d138993b3dd86764ba142a07cff82937, type: 3}
   desp: unit description
   canBeAttacked: 1
   canBeTargeted: 1
@@ -137,7 +123,7 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost: []
     sellValue: []
-    hp: 11
+    hp: 20
     sh: 0
     shRegen: 0.5
     shStagger: 3
@@ -145,7 +131,7 @@ MonoBehaviour:
     shRate: 0
     armorType: 0
     damageType: 0
-    speed: 1.4
+    speed: 1.2
     dodge: 0
     dmgReduc: 0
     critReduc: 0
@@ -404,7 +390,7 @@ MonoBehaviour:
   lifeGainedOnDestroyedChance: 0
   lifeGainedOnDestroyed: 0
   expGainOnDestroyed: 0
-  rscGainOnDestroyed: 0400000000000000
+  rscGainOnDestroyed: 0500000000000000
   lifeLostOnDestination: 1
   effectSpawn:
     obj: {fileID: 0}
