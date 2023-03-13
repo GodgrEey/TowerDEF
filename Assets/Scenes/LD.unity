@@ -30011,7 +30011,7 @@ MonoBehaviour:
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
+    - 6
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -30020,7 +30020,7 @@ MonoBehaviour:
     subWaveList:
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 0
-      spawnCount: 6
+      spawnCount: 4
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -30100,7 +30100,7 @@ MonoBehaviour:
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 50
+    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0

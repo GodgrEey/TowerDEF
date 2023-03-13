@@ -33,8 +33,9 @@ namespace TDTK{
 			}
 			if(SpawnManager.GetCurrentWaveIndex() ==1)
 			{
-				path1.SetActive(false);
 				path2.SetActive(true);
+				path4.SetActive(true);
+				path3.SetActive(false);
 			}
 			if(SpawnManager.GetCurrentWaveIndex() ==2)
 			{
@@ -42,6 +43,29 @@ namespace TDTK{
 				path2.SetActive(false);
 				path4.SetActive(false);
 			}
+			if(SpawnManager.GetCurrentWaveIndex() ==3)
+			{
+				path2.SetActive(true);
+				path4.SetActive(true);
+				path3.SetActive(false);
+			}
+			if(SpawnManager.GetCurrentWaveIndex() ==4)
+			{
+				path1.SetActive(false);
+				path2.SetActive(false);
+			}
+			if(SpawnManager.GetCurrentWaveIndex() ==5)
+			{
+				path1.SetActive(true);
+				path4.SetActive(false);
+			}
+			if(SpawnManager.GetCurrentWaveIndex() ==6)
+			{
+				path3.SetActive(true);
+				path2.SetActive(true);
+				path4.SetActive(true);
+			}
+
 			//rend.material.mainTextureScale=new Vector2(dist*0.2f, 1);
 		}
 		
