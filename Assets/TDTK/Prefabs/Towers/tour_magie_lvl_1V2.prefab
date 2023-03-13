@@ -420,4 +420,3 @@ MonoBehaviour:
   unlockUpgradeViaPerk: 0
   upgradeTowerList:
   - {fileID: -3172443544919972889, guid: 487e8a7ea4ee8d04da51f092225a4073, type: 3}
-  - {fileID: -8854244610298436340, guid: d2194fa08a243c843bc64b7c7632687b, type: 3}
