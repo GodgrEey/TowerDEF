@@ -201,7 +201,7 @@ MonoBehaviour:
   aimed: 0
   targetMode: 0
   targetCountPerAttack: 1
-  useLOSTargeting: 1
+  useLOSTargeting: 0
   targetingFov: 360
   targetingDir: 0
   activeEffectMod:
