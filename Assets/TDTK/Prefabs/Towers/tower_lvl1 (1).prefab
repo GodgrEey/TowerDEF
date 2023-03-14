@@ -49,9 +49,9 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 8
   instanceID: -1
-  unitName: "Tour \xE9l\xE9mentaire de feu"
+  unitName: Fire Will-o-Wisps Tower
   icon: {fileID: 21300028, guid: d138993b3dd86764ba142a07cff82937, type: 3}
-  desp: unit description
+  desp: Fire Will-o-Wisps Tower, Effective against log type enemies.
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25

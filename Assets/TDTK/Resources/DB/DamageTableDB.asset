@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: DamageTableDB
   m_EditorClassIdentifier: 
   armorTypeList:
-  - name: Reactive
+  - name: Champis
     modifiers:
     - 1
     - 1.2
     - 0.8
-  - name: Reflective
+  - name: Buche
     modifiers:
     - 1.2
-    - 1
     - 0.8
-  - name: Hybrid
+    - 1
+  - name: Golem
     modifiers:
     - 0.8
-    - 0.8
+    - 1
     - 1.2
   damageTypeList:
-  - name: Kinectic
-  - name: Energy
-  - name: Hybrid
-  copiedFromOldDB: 0
+  - name: Feu
+  - name: Magie
+  - name: Eau
+  copiedFromOldDB: 1

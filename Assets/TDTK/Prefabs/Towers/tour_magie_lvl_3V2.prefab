@@ -99,9 +99,9 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 15
   instanceID: -1
-  unitName: Tour de magie LVL3
+  unitName: LVL3 Magic Will-o-Wisps Tower
   icon: {fileID: 21300036, guid: d138993b3dd86764ba142a07cff82937, type: 3}
-  desp: unit description
+  desp: LVL3 Magic Will-o-Wisps Tower, Effective against shroom type enemies.
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
@@ -133,7 +133,7 @@ MonoBehaviour:
     shStagger: 3
     hpRate: 0
     shRate: 0
-    armorType: 0
+    armorType: 1
     damageType: 1
     speed: 3
     dodge: 0
