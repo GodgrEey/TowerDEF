@@ -18,18 +18,28 @@ MonoBehaviour:
     - 1
     - 1.2
     - 0.8
+    - 1
   - name: Buche
     modifiers:
     - 1.2
     - 0.8
+    - 1
     - 1
   - name: Golem
     modifiers:
     - 0.8
     - 1
     - 1.2
+    - 1
+  - name: none
+    modifiers:
+    - 1
+    - 1
+    - 1
+    - 1
   damageTypeList:
   - name: Feu
   - name: Magie
   - name: Eau
+  - name: none
   copiedFromOldDB: 1
