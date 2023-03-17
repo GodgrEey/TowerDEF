@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: TowerDB
   m_EditorClassIdentifier: 
   objList:
-  - {fileID: 1831089129482660, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
-  - {fileID: 1239107217020288, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
-  - {fileID: 1559356812443584, guid: 2d7555128cdf3e248af53a16f449ef86, type: 3}
-  - {fileID: 1486071284530726, guid: 3f0be5a8c13ba174ea75fa50fe15fb44, type: 3}
-  - {fileID: 1940423741694192, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
-  - {fileID: 1940423741694192, guid: 0f3e3bcb818ed2e44aa9c634151cd2d7, type: 3}
   - {fileID: 1136647811518820, guid: b3600a2efb36e044b834ccc3abf9f886, type: 3}
   - {fileID: 2961155182672067522, guid: 5a976b2b449e0b446bfc5b6f9158c8f7, type: 3}
   - {fileID: 1186147917745739739, guid: 7f4705d8c46d806478e72488f70119cc, type: 3}
@@ -28,12 +22,6 @@ MonoBehaviour:
   - {fileID: 2984430841879408196, guid: 8b6486336254dca46a2a363fe51aafe2, type: 3}
   - {fileID: 1599497040688788519, guid: 5af4aef7af30869458809671fe2da391, type: 3}
   towerList:
-  - {fileID: 114825332541157422, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
-  - {fileID: 114541810645508154, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
-  - {fileID: 114928476342519558, guid: 2d7555128cdf3e248af53a16f449ef86, type: 3}
-  - {fileID: 114132534924388918, guid: 3f0be5a8c13ba174ea75fa50fe15fb44, type: 3}
-  - {fileID: 114424032017952368, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
-  - {fileID: 114424032017952368, guid: 0f3e3bcb818ed2e44aa9c634151cd2d7, type: 3}
   - {fileID: 114544440111874162, guid: b3600a2efb36e044b834ccc3abf9f886, type: 3}
   - {fileID: 1727868531191017715, guid: 5a976b2b449e0b446bfc5b6f9158c8f7, type: 3}
   - {fileID: 6372875096741249839, guid: 7f4705d8c46d806478e72488f70119cc, type: 3}
