@@ -3,7 +3,32 @@ guid: 085680d6eb4a8714eabc98408e18d1e0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: branches arbre petit
+    second: {fileID: 2100000, guid: a62cbf2f6455cc842b0dccec8ba95187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: figure arbre petit
+    second: {fileID: 2100000, guid: a62cbf2f6455cc842b0dccec8ba95187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roues arbre petit
+    second: {fileID: 2100000, guid: a62cbf2f6455cc842b0dccec8ba95187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tronc arbre petit
+    second: {fileID: 2100000, guid: a62cbf2f6455cc842b0dccec8ba95187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yeux arbre petit
+    second: {fileID: 2100000, guid: a62cbf2f6455cc842b0dccec8ba95187, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
