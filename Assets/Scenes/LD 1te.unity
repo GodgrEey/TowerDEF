@@ -31881,7 +31881,9 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 174937129}
+  - {fileID: 1798820595}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
@@ -73865,7 +73867,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 44972518}
   m_HandleRect: {fileID: 44972517}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

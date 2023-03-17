@@ -10,8 +10,7 @@ Material:
   m_Name: Weapon_Red
   m_Shader: {fileID: -6465566751694194690, guid: 11b78075c6a5969488ccc37442041d7d, type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _EMISSION
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
