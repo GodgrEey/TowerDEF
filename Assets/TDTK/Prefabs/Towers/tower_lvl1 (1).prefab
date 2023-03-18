@@ -341,7 +341,7 @@ MonoBehaviour:
   limitInScene: 0
   destroyOnTrigger: 1
   effectBuilding:
-    obj: {fileID: 0}
+    obj: {fileID: 7733160404711068449, guid: 58cd9f123cbfb19428bf9367870d997b, type: 3}
     autoDestroy: 1
     duration: 1.5
   effectBuilt:
