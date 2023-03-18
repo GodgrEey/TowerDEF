@@ -2937,8 +2937,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -3753,7 +3753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224553825250401540, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2
+      value: -1.9999962
       objectReference: {fileID: 0}
     - target: {fileID: 224589057905049748, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchorMax.x
