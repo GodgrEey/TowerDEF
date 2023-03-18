@@ -2549,8 +2549,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -3088,7 +3088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224132981098330360, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00039672852
+      value: -0.00036621094
       objectReference: {fileID: 0}
     - target: {fileID: 224149561443973126, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3512,7 +3512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224553825250401540, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.9999962
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 224589057905049748, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3564,7 +3564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224686031960369134, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.9999847
+      value: 2.9999924
       objectReference: {fileID: 0}
     - target: {fileID: 224706816387288896, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_AnchorMax.x
