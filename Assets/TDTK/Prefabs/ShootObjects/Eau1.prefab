@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9015407774925267036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8652110576854112088}
+  - component: {fileID: 4976089372567238294}
+  m_Layer: 0
+  m_Name: Eau1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8652110576854112088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015407774925267036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.241783, y: -24.393772, z: 29.058147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4976089372567238294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015407774925267036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049c0557f1797534aa8a073b5e018839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  straightProjectile: 0
+  speed: 10
+  elevation: 2
+  falloffRange: 1
+  useTrajectoryCurve: 0
+  elevationT: 0
+  trajectory:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trailList: []
+  lightningRenderers: []
+  arcLength: 0.5
+  arcVariation: 1
+  lightningInaccuracy: 0.5
+  timeOfZap: 0.25
+  randomRange: 1.5
+  lightningWidth: 0.15
+  maxLgtDist: 1.5
+  lines: []
+  beamDuration: 0.5
+  startWidth: 0.25
+  effectDuration: 0.5
+  aimCooldown: 0
+  effectShoot:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectHit:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  shootSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  tgtUnit: {fileID: 0}
+  tgtRadius: 0
+  targetPos: {x: 0, y: 0, z: 0}
+  shootTime: 0
+  shootPoint: {fileID: 0}
