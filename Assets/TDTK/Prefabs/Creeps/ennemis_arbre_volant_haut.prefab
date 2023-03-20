@@ -351,7 +351,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   effectDestroyed:
-    obj: {fileID: 0}
+    obj: {fileID: 8818893996523535172, guid: bd81610789a66b045afeb2e89ef9a94a, type: 3}
     autoDestroy: 1
     duration: 1.5
   effectDestination:
