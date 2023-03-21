@@ -84,17 +84,17 @@ MonoBehaviour:
     hpRate: 0
     shRate: 0
     armorType: 0
-    damageType: 0
+    damageType: 2
     speed: 3
     dodge: 0
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 2
-    damageMax: 2
+    damageMin: 4.5
+    damageMax: 4.5
     attackRange: 2
     aoeRange: 0
-    cooldown: 1
+    cooldown: 2
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1

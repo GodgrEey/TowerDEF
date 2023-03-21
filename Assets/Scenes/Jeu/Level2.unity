@@ -2772,6 +2772,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1216148310644262, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1217883508389324, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2789,6 +2793,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1395641206235340, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413430550504970, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -2838,7 +2846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976276918008734, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4573845608008700, guid: c405c9710e70a1946a823c5b43df017f, type: 3}
       propertyPath: m_RootOrder
@@ -9111,7 +9119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridSize: 1
   autoAdjustTextureToGrid: 1
-  unavailablePrefabIDList: 050000000c0000000300000004000000070000000f0000000e0000000900000000000000020000000100000006000000
+  unavailablePrefabIDList: 050000000c00000004000000070000000f0000000e0000000900000000000000020000000100000006000000
   buildableList: []
   sampleList: []
   activeTowerList: []

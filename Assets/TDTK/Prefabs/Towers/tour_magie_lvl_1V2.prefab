@@ -145,7 +145,7 @@ MonoBehaviour:
     damageMax: 3
     attackRange: 2.5
     aoeRange: 0
-    cooldown: 0.6
+    cooldown: 0.8
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
@@ -419,5 +419,4 @@ MonoBehaviour:
   buildPlatform: {fileID: 0}
   nodeID: 0
   unlockUpgradeViaPerk: 0
-  upgradeTowerList:
-  - {fileID: -3172443544919972889, guid: 487e8a7ea4ee8d04da51f092225a4073, type: 3}
+  upgradeTowerList: []

@@ -115,7 +115,7 @@ MonoBehaviour:
   cooldownRsc: 0
   level: 0
   statsList:
-  - editTurret: 0
+  - editTurret: 1
     editAOE: 0
     editMine: 0
     buildDuration: 1
@@ -134,17 +134,17 @@ MonoBehaviour:
     hpRate: 0
     shRate: 0
     armorType: 0
-    damageType: 0
+    damageType: 2
     speed: 3
     dodge: 0
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 2
-    damageMax: 2
+    damageMin: 6
+    damageMax: 6
     attackRange: 2
     aoeRange: 0
-    cooldown: 1
+    cooldown: 1.7
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
@@ -177,7 +177,7 @@ MonoBehaviour:
     rscGain: []
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 4976089372567238294, guid: 3a69500ef87b31542a68553d437b7334, type: 3}
+  shootObject: {fileID: 4976089372567238294, guid: 23a1562575c638b43a2a1ce8ac364992, type: 3}
   shootPoint: []
   shootPointSpacing: 0.2
   shootEffObj_AOE:
