@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public string FirstLevel;
+    public string Level;
     public string SecondLevel;
     public string ThirdLevel;
     public GameObject optionsScreen;
+     public GameObject LvlScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +29,9 @@ public class MainMenu : MonoBehaviour
     }
     public void ChooseLevel()
     {
-        
+        LvlScreen.SetActive(true);
     }
+
     public void OpenOptions()
     {
         optionsScreen.SetActive(true);
