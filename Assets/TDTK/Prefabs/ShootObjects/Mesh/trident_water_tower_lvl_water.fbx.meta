@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TDTK/Prefabs/ShootObjects/Mesh/trident_water_tower_lvl_water.fbx.meta
 guid: 4d003171b8dd0f545b861774a4c01563
+========
+guid: f11a37fbfa16e6f4c83a426aea677c7a
+>>>>>>>> ce4de4d79bfc3ad6ea119ce436ebd89c13bd9ec8:Assets/TDTK/Prefabs/ShootObjects/Mesh/trident_water_tower_lvl_deux.fbx.meta
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
