@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Jeu/oskour.unity
+    path: Assets/Scenes/Jeu/Title_Screen.unity
     guid: 9389a6c0446017f4db6aa1c076214699
   - enabled: 1
     path: Assets/Scenes/Jeu/Level1.unity
