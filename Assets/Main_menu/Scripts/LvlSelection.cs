@@ -10,6 +10,7 @@ public class LvlSelection : MonoBehaviour
     public string SecondLevel;
     public string ThirdLevel;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +26,5 @@ public class LvlSelection : MonoBehaviour
     {
         SceneManager.LoadScene(FirstLevel);
     }
-
-            public void LoadScene()
-    {
-        SceneManager.LoadScene(SecondLevel);
-        SceneManager.LoadScene(ThirdLevel);
-    }
-
-   
+  
 }
