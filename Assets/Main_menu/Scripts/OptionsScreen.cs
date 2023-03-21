@@ -13,6 +13,22 @@ public class OptionsScreen : MonoBehaviour
     void Start()
     {
         
+    float vol = 0f;
+    TheMixer.GetFloat("MasterVol",out vol);
+    mastSlider.value = vol;
+
+    TheMixer.GetFloat("MusicVol",out vol);
+    musicSlider.value = vol;
+
+    TheMixer.GetFloat("SFXVol",out vol);
+    sfxSlider.value = vol;
+
+    mastLabel.text = Mathf.RoundToInt(mastSlider.value + 80).ToString();
+
+    musicLabel.text = Mathf.RoundToInt(musicSlider.value + 80).ToString();
+
+    sfxLabel.text = Mathf.RoundToInt(sfxSlider.value + 80).ToString();
+
     }
 
     // Update is called once per frame
@@ -25,6 +41,8 @@ public class OptionsScreen : MonoBehaviour
 
     TheMixer.SetFloat("MasterVol", mastSlider.value);
     
+
+    PlayerPrefs.SetFloat("MasterVol", mastSlider.value);
     }
    
    
@@ -34,6 +52,7 @@ public class OptionsScreen : MonoBehaviour
 
     TheMixer.SetFloat("MusicVol", musicSlider.value);
     
+    PlayerPrefs.SetFloat("MusicVol", musicSlider.value);
     }
 
 
@@ -43,5 +62,6 @@ public class OptionsScreen : MonoBehaviour
 
     TheMixer.SetFloat("SFXVol", sfxSlider.value);
     
+    PlayerPrefs.SetFloat("SFXVol", sfxSlider.value);
     }
 }
