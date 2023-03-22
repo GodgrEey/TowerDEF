@@ -7932,7 +7932,7 @@ MonoBehaviour:
   path: {fileID: 1004142431}
   rend: {fileID: 1157147311}
   scrollSpeed: 2
-  path1: {fileID: 1157147308}
+  path1: {fileID: 0}
   path2: {fileID: 0}
   path3: {fileID: 0}
   path4: {fileID: 0}

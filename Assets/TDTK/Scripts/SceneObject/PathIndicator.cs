@@ -26,46 +26,6 @@ namespace TDTK{
 		void Update () {
 			float offset = Time.time * -scrollSpeed;
 			rend.material.mainTextureOffset=new Vector2(offset, 0);
-			if(SpawnManager.GetCurrentWaveIndex() ==0)
-			{
-				path2.SetActive(true);
-				path1.SetActive(false);
-				path4.SetActive(false);
-				path3.SetActive(true);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==1)
-			{
-				path3.SetActive(false);
-				path4.SetActive(true);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==2)
-			{
-				path1.SetActive(true);
-				path2.SetActive(false);
-				path4.SetActive(false);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==3)
-			{
-				path2.SetActive(true);
-				path4.SetActive(true);
-				path3.SetActive(false);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==4)
-			{
-				path1.SetActive(false);
-				path2.SetActive(false);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==5)
-			{
-				path1.SetActive(true);
-				path4.SetActive(false);
-			}
-			if(SpawnManager.GetCurrentWaveIndex() ==6)
-			{
-				path3.SetActive(true);
-				path2.SetActive(true);
-				path4.SetActive(true);
-			}
 
 			//rend.material.mainTextureScale=new Vector2(dist*0.2f, 1);
 		}
