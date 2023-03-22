@@ -174,11 +174,11 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 4.5
-    damageMax: 4.5
+    damageMin: 9
+    damageMax: 9
     attackRange: 2
     aoeRange: 0
-    cooldown: 2
+    cooldown: 1.5
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
