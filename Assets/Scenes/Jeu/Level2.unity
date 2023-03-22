@@ -8096,7 +8096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridSize: 1
   autoAdjustTextureToGrid: 1
-  unavailablePrefabIDList: 050000000c00000004000000070000000f0000000e0000000900000000000000020000000100000006000000
+  unavailablePrefabIDList: 050000000c00000004000000070000000f0000000e00000009000000020000000100000006000000
   buildableList: []
   sampleList: []
   activeTowerList: []

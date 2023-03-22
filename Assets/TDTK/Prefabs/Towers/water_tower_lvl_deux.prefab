@@ -51,7 +51,8 @@ MonoBehaviour:
   instanceID: -1
   unitName: LVL2 Water Will-o-Wisps Tower
   icon: {fileID: 21300000, guid: 902ea93667452ab4397368efa4ff99bb, type: 3}
-  desp: unit description
+  desp: 'LVL2 Water Will-o-Wisps Tower :                           Deals "Water Damage"                                      
+    Effective against "Golem" type enemies.'
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
@@ -83,7 +84,7 @@ MonoBehaviour:
     shStagger: 3
     hpRate: 0
     shRate: 0
-    armorType: 0
+    armorType: 3
     damageType: 2
     speed: 3
     dodge: 0
@@ -92,7 +93,7 @@ MonoBehaviour:
     hit: 1
     damageMin: 7.5
     damageMax: 7.5
-    attackRange: 2
+    attackRange: 2.15
     aoeRange: 0
     cooldown: 1.7
     critChance: 0
@@ -143,8 +144,8 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
-  barrelPivot: {fileID: 0}
+  turretPivot: {fileID: 9197676926598923706}
+  barrelPivot: {fileID: 9197676926598923706}
   aimInXAxis: 1
   snapAiming: 1
   aimSpeed: 20

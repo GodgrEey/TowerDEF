@@ -301,8 +301,8 @@ MonoBehaviour:
   instanceID: -1
   unitName: LVL3 Fire Will-o-Wisps Tower
   icon: {fileID: 21300000, guid: 8908f6b1d0705604798376e5d6e4eac7, type: 3}
-  desp: 'Fire Will-o-Wisps Tower :                           Deals "Fire Damage"                                      
-    Effective against "Log" type enemies.'
+  desp: 'LV3 Fire Will-o-Wisps Tower :                           Deals "Fire Damage"                                      
+    Effective against "Ant" type enemies.'
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
@@ -341,8 +341,8 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 3
-    damageMax: 3
+    damageMin: 4
+    damageMax: 4
     attackRange: 3.5
     aoeRange: 2
     cooldown: 1
@@ -394,8 +394,8 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
-  barrelPivot: {fileID: 0}
+  turretPivot: {fileID: 3661143911312624998}
+  barrelPivot: {fileID: 3661143911312624998}
   aimInXAxis: 1
   snapAiming: 1
   aimSpeed: 20
