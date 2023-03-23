@@ -1576,7 +1576,7 @@ MonoBehaviour:
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 1
+    - 4
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -1722,11 +1722,41 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
-      delay: 5
+    - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
+      delay: 2
+      spawnCount: 3
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 511132826134738347, guid: dde71bdcaef20d046b83041729895992, type: 3}
+      delay: 3
+      spawnCount: 3
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -6861158800752285565, guid: 55dc437715c7e5c4badc7f49755ce066, type: 3}
+      delay: 0
+      spawnCount: 2
+      spacing: 1
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
+      delay: 0
       spawnCount: 4
-      spacing: 1.2
-      path: {fileID: 0}
+      spacing: 3
+      path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
@@ -1745,10 +1775,60 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
+    - prefab: {fileID: -6861158800752285565, guid: 55dc437715c7e5c4badc7f49755ce066, type: 3}
       delay: 5
-      spawnCount: 8
-      spacing: 1
+      spawnCount: 3
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 511132826134738347, guid: dde71bdcaef20d046b83041729895992, type: 3}
+      delay: 0
+      spawnCount: 3
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
+      delay: 2
+      spawnCount: 4
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
+      delay: 0
+      spawnCount: 7
+      spacing: 1.5
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -199354529222564347, guid: b1ec8ef13efb7fa4e9f694b93676b2bc, type: 3}
+      delay: 4
+      spawnCount: 7
+      spacing: 1.5
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
+      delay: 6
+      spawnCount: 6
+      spacing: 1.5
       path: {fileID: 1004142431}
       HP: -1
       SH: -1
@@ -1761,7 +1841,7 @@ MonoBehaviour:
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
+    - 1
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -1771,8 +1851,8 @@ MonoBehaviour:
     - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 5
       spawnCount: 10
-      spacing: 1.2
-      path: {fileID: 0}
+      spacing: 2
+      path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
@@ -1780,8 +1860,8 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 5
-      spawnCount: 1
-      spacing: 1
+      spawnCount: 7
+      spacing: 2
       path: {fileID: 1004142431}
       HP: -1
       SH: -1
@@ -1790,9 +1870,9 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 8
-      spawnCount: 4
-      spacing: 1
-      path: {fileID: 0}
+      spawnCount: 5
+      spacing: 2
+      path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
@@ -1800,9 +1880,59 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 5
+      spawnCount: 5
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 9158479010498979267, guid: 9551e93fefc15294c95a7df00446df57, type: 3}
+      delay: 0
+      spawnCount: 5
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 2195969327153727486, guid: 3b812de32f35d5e4bac1896e07a5ee2e, type: 3}
+      delay: 10
       spawnCount: 4
-      spacing: 1
-      path: {fileID: 0}
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
+      delay: 0
+      spawnCount: 5
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
+      delay: 15
+      spawnCount: 10
+      spacing: 2
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
+      delay: 0
+      spawnCount: 8
+      spacing: 2
+      path: {fileID: 1004142431}
       HP: -1
       SH: -1
       speed: -1
