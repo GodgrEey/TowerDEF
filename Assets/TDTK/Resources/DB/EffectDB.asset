@@ -763,7 +763,7 @@ MonoBehaviour:
     stack: 1
     ignoreSource: 0
     stackable: 0
-    duration: 2
+    duration: 3
     durationRemain: 1
     effType: 1
     stun: 0
@@ -1091,7 +1091,7 @@ MonoBehaviour:
     stack: 1
     ignoreSource: 0
     stackable: 0
-    duration: 2
+    duration: 3
     durationRemain: 1
     effType: 1
     stun: 0

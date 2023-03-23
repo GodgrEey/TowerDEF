@@ -104,7 +104,8 @@ MonoBehaviour:
   instanceID: -1
   unitName: "pi\xE8ge ralentissant"
   icon: {fileID: 21300000, guid: a6e36b9cf504b994bbc81ae357c6c6b6, type: 3}
-  desp: Slow the enemies when they step on the trap
+  desp: Slow the enemies when they step on the trap       disappears after trapping
+    10 enemies.
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
