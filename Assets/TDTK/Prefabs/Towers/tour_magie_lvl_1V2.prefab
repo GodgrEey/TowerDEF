@@ -146,7 +146,7 @@ MonoBehaviour:
     damageMax: 3
     attackRange: 2.5
     aoeRange: 0
-    cooldown: 0.8
+    cooldown: 1
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
