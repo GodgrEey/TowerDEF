@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &671538621151466273
+--- !u!1 &1512292624270097603
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,102 +8,71 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 151460466848172443}
-  - component: {fileID: 3870214859116185150}
-  - component: {fileID: 1319894033234916084}
-  - component: {fileID: 7452879804900050305}
+  - component: {fileID: 8149009364529856450}
+  - component: {fileID: 999389900984981325}
+  - component: {fileID: 3819763564325279659}
+  - component: {fileID: 945987786614324043}
   m_Layer: 0
-  m_Name: water_tower_lvl_un
+  m_Name: TourBoost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &151460466848172443
+--- !u!4 &8149009364529856450
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671538621151466273}
+  m_GameObject: {fileID: 1512292624270097603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.011086151, y: 0.37362388, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -10.9976, y: 1.5934, z: -7.6792}
+  m_LocalScale: {x: 0.26245204, y: 0.119084775, z: 0.1711}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3870214859116185150
+--- !u!33 &999389900984981325
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671538621151466273}
-  m_Mesh: {fileID: 4935424503957158818, guid: ed9b3430af61e4d49945d33339bc50f7, type: 3}
---- !u!23 &1319894033234916084
-MeshRenderer:
+  m_GameObject: {fileID: 1512292624270097603}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &3819763564325279659
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671538621151466273}
+  m_GameObject: {fileID: 1512292624270097603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -7091738047578536215, guid: ed9b3430af61e4d49945d33339bc50f7, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7452879804900050305
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &945987786614324043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671538621151466273}
+  m_GameObject: {fileID: 1512292624270097603}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aad507a3dcc61094483b4a428cf99d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 3
+  prefabID: 7
   instanceID: -1
-  unitName: Water Will-o-Wisps Tower
-  icon: {fileID: 21300000, guid: 902ea93667452ab4397368efa4ff99bb, type: 3}
-  desp: 'Water Will-o-Wisps Tower :                           Deals "Water Damage"                                      
-    Effective against "Golem" type enemies.                 Low hit rate but high
-    damage, ideal against hight HP enemies.                               '
+  unitName: TourBoost
+  icon: {fileID: 21300016, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+  desp: unit description
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
@@ -117,17 +86,17 @@ MonoBehaviour:
   cooldownRsc: 0
   level: 0
   statsList:
-  - editTurret: 1
-    editAOE: 0
+  - editTurret: 0
+    editAOE: 1
     editMine: 0
     buildDuration: 1
     sellDuration: 1
     expToNextUpgrade: 10
     cost:
-    - 25
+    - 0
     - 0
     sellValue:
-    - 12
+    - 0
     - 0
     hp: 5
     sh: 0
@@ -135,33 +104,33 @@ MonoBehaviour:
     shStagger: 3
     hpRate: 0
     shRate: 0
-    armorType: 3
-    damageType: 2
+    armorType: 0
+    damageType: 0
     speed: 3
     dodge: 0
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 6
-    damageMax: 6
+    damageMin: 2
+    damageMax: 2
     attackRange: 2
     aoeRange: 0
-    cooldown: 1.7
+    cooldown: 1
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
     overrideExistingEffect: 0
     effectOnHitIDList: 
     hit_AOE: 1
-    damageMin_AOE: 2
-    damageMax_AOE: 2
-    attackRange_AOE: 2
-    cooldown_AOE: 1
+    damageMin_AOE: 0
+    damageMax_AOE: 0
+    attackRange_AOE: 4.2
+    cooldown_AOE: 0
     critChance_AOE: 0
     critMultiplier_AOE: 0
     effectOnHitChance_AOE: 1
     overrideExistingEffect_AOE: 0
-    effectOnHitIDList_AOE: 
+    effectOnHitIDList_AOE: 0a000000
     hit_Mine: 1
     damageMin_Mine: 2
     damageMax_Mine: 2
@@ -179,7 +148,7 @@ MonoBehaviour:
     rscGain: []
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 4976089372567238294, guid: 23a1562575c638b43a2a1ce8ac364992, type: 3}
+  shootObject: {fileID: 0}
   shootPoint: []
   shootPointSpacing: 0.2
   shootEffObj_AOE:
@@ -377,8 +346,8 @@ MonoBehaviour:
   clipConstruct: {fileID: 0}
   clipDeconstruct: {fileID: 0}
   towerType: 0
-  isTurret: 1
-  isAOE: 0
+  isTurret: 0
+  isAOE: 1
   isSupport: 0
   isResource: 0
   isMine: 0
@@ -420,5 +389,4 @@ MonoBehaviour:
   buildPlatform: {fileID: 0}
   nodeID: 0
   unlockUpgradeViaPerk: 0
-  upgradeTowerList:
-  - {fileID: 5595889382322009192, guid: ecd29ea267f70b849a44f616168c8268, type: 3}
+  upgradeTowerList: []

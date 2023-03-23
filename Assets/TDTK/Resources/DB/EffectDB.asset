@@ -845,7 +845,7 @@ MonoBehaviour:
     stack: 1
     ignoreSource: 0
     stackable: 0
-    duration: 1
+    duration: 0.08
     durationRemain: 1
     effType: 1
     stun: 0
@@ -868,7 +868,7 @@ MonoBehaviour:
       shRate: 1
       armorType: 0
       damageType: 0
-      speed: 1.6
+      speed: 1.7
       dodge: 1
       dmgReduc: 1
       critReduc: 1
