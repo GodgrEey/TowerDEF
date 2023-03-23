@@ -9,6 +9,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: partie_1_tour_magie_lvl_1
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: partie_2_tour_magie_lvl_1
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

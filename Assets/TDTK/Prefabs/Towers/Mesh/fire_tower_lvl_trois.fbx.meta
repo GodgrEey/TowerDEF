@@ -3,7 +3,22 @@ guid: fbdd5d7f18fdc1c45a1af62fa2dc78f8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feu_tour_lvl_trois_elementaire
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feu_tour_lvl_trois_lave
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feu_tower_lvl_trois
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

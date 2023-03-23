@@ -3,7 +3,22 @@ guid: 9e75129d22da45e4aad94a818b3085a2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_tower_lvl_trois_base
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_tower_lvl_trois_eau
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_tower_lvl_trois_elementaire
+    second: {fileID: 2100000, guid: f5c03b7d48332454cbf96bd82bc98f12, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
