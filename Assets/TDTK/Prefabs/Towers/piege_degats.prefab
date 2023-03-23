@@ -104,7 +104,7 @@ MonoBehaviour:
   instanceID: -1
   unitName: "pi\xE8ge de d\xE9gats"
   icon: {fileID: 21300000, guid: 85e0abd6861948442a052b6cb4f2440b, type: 3}
-  desp: deals Damage when the enemies steps on the trap
+  desp: deals Damage when the enemies steps on the trap.
   canBeAttacked: 0
   canBeTargeted: 0
   unitRadius: 0.25

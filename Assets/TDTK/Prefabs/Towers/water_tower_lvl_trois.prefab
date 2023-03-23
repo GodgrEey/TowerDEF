@@ -136,7 +136,8 @@ MonoBehaviour:
   unitName: LVL3 Water Will-o-Wisps Tower
   icon: {fileID: 21300000, guid: 902ea93667452ab4397368efa4ff99bb, type: 3}
   desp: 'LVL3 Water Will-o-Wisps Tower :                           Deals "Water Damage"                                      
-    Effective against "Golem" type enemies.'
+    Effective against "Golem" type enemies.                 Low hit rate but high
+    damage, ideal against hight HP enemies.                               '
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25

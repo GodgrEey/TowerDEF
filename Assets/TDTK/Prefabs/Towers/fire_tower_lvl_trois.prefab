@@ -302,7 +302,8 @@ MonoBehaviour:
   unitName: LVL3 Fire Will-o-Wisps Tower
   icon: {fileID: 21300000, guid: 8908f6b1d0705604798376e5d6e4eac7, type: 3}
   desp: 'LV3 Fire Will-o-Wisps Tower :                           Deals "Fire Damage"                                      
-    Effective against "Ant" type enemies.'
+    Effective against "Ant" type enemies.                 AOE damage, ideal against
+    low HP grouped enemies.                               '
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
