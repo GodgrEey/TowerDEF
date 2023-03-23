@@ -176,9 +176,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5727000276215056956}
   - component: {fileID: 2195969327153727486}
+  - component: {fileID: -7742108939021837940}
+  - component: {fileID: -596625462094781214}
   m_Layer: 0
   m_Name: golem_moyen
-  m_TagString: Untagged
+  m_TagString: Creep_Sol
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,3 +545,32 @@ MonoBehaviour:
     mulSpd: 0.5
     mulExp: 0.5
     mulRsc: 0.5
+--- !u!65 &-7742108939021837940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913907422863331462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2854941, y: 0.6696534, z: 0.2879266}
+  m_Center: {x: -0.002950534, y: 0.3348267, z: 0.00174848}
+--- !u!54 &-596625462094781214
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913907422863331462}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
