@@ -383,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 266386617652302791}
     m_Modifications:
+    - target: {fileID: -8891056193516152207, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae798edab10ff33448ba89fdce5211c9, type: 2}
     - target: {fileID: -8679921383154817045, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -427,6 +431,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3908748116161205573, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b57a2feb955cbbf4a87925e1007982bf, type: 2}
+    - target: {fileID: -3208694839559577847, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4821db4f65f32ef4f95152fd9cc6ff88, type: 2}
+    - target: {fileID: -3182346012077058151, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f00ed2a3665b3d746b43be1d5f78cb27, type: 2}
+    - target: {fileID: -3129520284494505901, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39e132d48b0f80f4cae12e186a7b5d0a, type: 2}
+    - target: {fileID: -1384376049938764397, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4821db4f65f32ef4f95152fd9cc6ff88, type: 2}
     - target: {fileID: 919132149155446097, guid: 4b6aeac75b7d5854db8ee90cd0f82382, type: 3}
       propertyPath: m_Name
       value: ennemis_arbre_volant_haut

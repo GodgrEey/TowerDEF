@@ -414,6 +414,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5505227108803905429}
     m_Modifications:
+    - target: {fileID: -9222550780913076423, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79ef2c3a4b74ea14985104d8c9ca0664, type: 2}
     - target: {fileID: -8679921383154817045, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -458,10 +462,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8337383118095655300, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 282e032e3ae4edf4c8ca951b3a7670af, type: 2}
+    - target: {fileID: -2348983687401961238, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79ef2c3a4b74ea14985104d8c9ca0664, type: 2}
     - target: {fileID: 919132149155446097, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
       propertyPath: m_Name
       value: ennemis_petit_arbre
       objectReference: {fileID: 0}
+    - target: {fileID: 5165804811590550681, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b6016b89375d2514a91e9e1b80782f06, type: 2}
+    - target: {fileID: 5310166256211726826, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 36d01c8a4482e6a4aaa732647e000fd0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 085680d6eb4a8714eabc98408e18d1e0, type: 3}
 --- !u!4 &7536409781978107963 stripped

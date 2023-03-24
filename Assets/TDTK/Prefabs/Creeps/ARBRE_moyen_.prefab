@@ -458,10 +458,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7378202093143153216, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a1143005aad814f459894f745ac302dc, type: 2}
+    - target: {fileID: -6474387676145257298, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95d063b12bd39cd4880885797ba2b73f, type: 2}
+    - target: {fileID: -4042368083164381366, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ed6c00a12e9e4cf4c9caf5463f34b7ce, type: 2}
     - target: {fileID: 919132149155446097, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
       propertyPath: m_Name
       value: ARBRE_moyen_
       objectReference: {fileID: 0}
+    - target: {fileID: 4471251315955146088, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ef7fb1ee2235e124981feaac30d72346, type: 2}
+    - target: {fileID: 5813785289120910343, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 985a04f037585234286a73d0290ce603, type: 2}
+    - target: {fileID: 7004263704168773139, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a667b6c9802bb0640af6f1a98f4e7411, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c821dbfc86500574bbecdd9b293f8673, type: 3}
 --- !u!4 &229437488783615674 stripped

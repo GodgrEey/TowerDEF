@@ -428,6 +428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7343104931953764641}
     m_Modifications:
+    - target: {fileID: -9187802165787938674, guid: 03dc57b9d9cb53f439f82640951c033c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3689d43592e90d944844f868fd7077de, type: 2}
     - target: {fileID: -8679921383154817045, guid: 03dc57b9d9cb53f439f82640951c033c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -472,6 +476,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1463125480241811305, guid: 03dc57b9d9cb53f439f82640951c033c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82d91cad74466fc47a6dcb7f258da8ab, type: 2}
+    - target: {fileID: -1463125480241811305, guid: 03dc57b9d9cb53f439f82640951c033c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3689d43592e90d944844f868fd7077de, type: 2}
     - target: {fileID: 919132149155446097, guid: 03dc57b9d9cb53f439f82640951c033c, type: 3}
       propertyPath: m_Name
       value: tour_magie_lvl_1
