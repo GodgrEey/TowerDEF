@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
     public GameObject optionsScreen;
      public GameObject LvlScreen;
 
+     public GameObject CreditScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,5 +46,15 @@ public void CloseOptions()
     {
         Application.Quit();
         Debug.Log("quitting");
+    }
+
+        public void OpenCredit()
+    {
+        CreditScreen.SetActive(true);
+    }
+
+    public void CloseCredit()
+    {
+        CreditScreen.SetActive(false);
     }
 }

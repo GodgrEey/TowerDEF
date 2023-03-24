@@ -178,7 +178,7 @@ MonoBehaviour:
     rscGain: []
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 4976089372567238294, guid: 23a1562575c638b43a2a1ce8ac364992, type: 3}
+  shootObject: {fileID: 5183522320040143839, guid: d5ff450573d1e804393d0de72dfbccc2, type: 3}
   shootPoint: []
   shootPointSpacing: 0.2
   shootEffObj_AOE:

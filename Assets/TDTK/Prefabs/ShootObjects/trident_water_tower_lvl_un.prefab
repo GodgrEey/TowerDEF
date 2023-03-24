@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2422264061370475664}
   - component: {fileID: 1599419715214748469}
   - component: {fileID: 3591251851811577855}
+  - component: {fileID: 5183522320040143839}
   m_Layer: 0
   m_Name: trident_water_tower_lvl_un
   m_TagString: Untagged
@@ -83,3 +84,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5183522320040143839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3086739223057727018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049c0557f1797534aa8a073b5e018839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  straightProjectile: 0
+  speed: 10
+  elevation: 2
+  falloffRange: 1
+  useTrajectoryCurve: 0
+  elevationT: 0
+  trajectory:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trailList: []
+  lightningRenderers: []
+  arcLength: 0.5
+  arcVariation: 1
+  lightningInaccuracy: 0.5
+  timeOfZap: 0.25
+  randomRange: 1.5
+  lightningWidth: 0.15
+  maxLgtDist: 1.5
+  lines: []
+  beamDuration: 0.5
+  startWidth: 0.25
+  effectDuration: 0.5
+  aimCooldown: 0
+  effectShoot:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectHit:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  shootSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  tgtUnit: {fileID: 0}
+  tgtRadius: 0
+  targetPos: {x: 0, y: 0, z: 0}
+  shootTime: 0
+  shootPoint: {fileID: 0}
