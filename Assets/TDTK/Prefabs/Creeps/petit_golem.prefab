@@ -425,7 +425,7 @@ MonoBehaviour:
   lifeGainedOnDestroyedChance: 0
   lifeGainedOnDestroyed: 0
   expGainOnDestroyed: 0
-  rscGainOnDestroyed: 0200000000000000
+  rscGainOnDestroyed: 02000000
   lifeLostOnDestination: 1
   effectSpawn:
     obj: {fileID: 0}
@@ -440,7 +440,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   soundSpawn: {fileID: 0}
-  soundDestroyed: {fileID: 0}
+  soundDestroyed: {fileID: 8300000, guid: 5616dde90ed1d954eb5421837481812c, type: 3}
   soundDestination: {fileID: 0}
   supportTgtList: []
   supportSrcList: []
