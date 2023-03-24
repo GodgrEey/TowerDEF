@@ -189,13 +189,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toonshader": {
-      "version": "file:C:/Users/alex.menu/Downloads/com.unity.toonshader-development-v1/com.unity.toonshader",
+      "version": "0.9.0-preview",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.film-internal-utilities": "0.18.2-preview",
         "com.unity.render-pipelines.core": "10.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
       "version": "1.0.0",
