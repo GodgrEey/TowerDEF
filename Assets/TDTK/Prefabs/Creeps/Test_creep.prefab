@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 6
+  prefabID: -1
   instanceID: -1
   unitName: Test
   icon: {fileID: 21300012, guid: d138993b3dd86764ba142a07cff82937, type: 3}
