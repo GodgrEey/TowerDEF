@@ -300,7 +300,7 @@ MonoBehaviour:
   prefabID: 0
   instanceID: -1
   unitName: Fire Will-o-Wisps Tower
-  icon: {fileID: 21300000, guid: 8908f6b1d0705604798376e5d6e4eac7, type: 3}
+  icon: {fileID: 21300000, guid: a82da2bf4c2d4c6418fb438ab8590ca6, type: 3}
   desp: 'Fire Will-o-Wisps Tower :                           Deals "Fire Damage"                                      
     Effective against "Ant" type enemies.                 AOE damage, ideal against
     low HP grouped enemies.                               '
@@ -327,7 +327,6 @@ MonoBehaviour:
     - 25
     sellValue:
     - 15
-    - 0
     hp: 5
     sh: 0
     shRegen: 0.5

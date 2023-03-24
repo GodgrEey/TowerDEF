@@ -50,7 +50,7 @@ MonoBehaviour:
   prefabID: 4
   instanceID: -1
   unitName: LVL2 Water Will-o-Wisps Tower
-  icon: {fileID: 21300000, guid: 902ea93667452ab4397368efa4ff99bb, type: 3}
+  icon: {fileID: 21300000, guid: 3623e1b954f098448b91bd915a4fb3a4, type: 3}
   desp: 'LVL2 Water Will-o-Wisps Tower :                           Deals "Water Damage"                                      
     Effective against "Golem" type enemies.                 Low hit rate but high
     damage, ideal against hight HP enemies.                               '
@@ -77,7 +77,6 @@ MonoBehaviour:
     - 55
     sellValue:
     - 27
-    - 0
     hp: 5
     sh: 0
     shRegen: 0.5
