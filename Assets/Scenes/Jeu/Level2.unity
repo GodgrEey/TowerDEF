@@ -202,7 +202,7 @@ MonoBehaviour:
   - 0
   - 0
   perkRscGainOnWin: 0
-  nextLevelName: 
+  nextLevelName: Level3
   mainMenuName: 
 --- !u!1 &34190681
 GameObject:
