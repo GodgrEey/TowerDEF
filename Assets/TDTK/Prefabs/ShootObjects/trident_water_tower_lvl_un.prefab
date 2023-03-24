@@ -128,7 +128,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   effectHit:
-    obj: {fileID: 173230878113731286, guid: f735e919fcb9f964b97467f0eef0a4f7, type: 3}
+    obj: {fileID: 0}
     autoDestroy: 1
     duration: 1.5
   shootSound: {fileID: 0}
