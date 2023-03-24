@@ -104,7 +104,7 @@ MonoBehaviour:
   desp: unit description
   canBeAttacked: 1
   canBeTargeted: 1
-  unitRadius: 0.25
+  unitRadius: 0.1
   targetPoint: {fileID: 6007959843578574917}
   hp: 10
   sh: 0
