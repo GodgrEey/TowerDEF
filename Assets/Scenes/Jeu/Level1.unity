@@ -1766,7 +1766,7 @@ MonoBehaviour:
     subWaveList:
     - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 5
-      spawnCount: 10
+      spawnCount: 7
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1776,7 +1776,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 5
-      spawnCount: 7
+      spawnCount: 5
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1786,7 +1786,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 8
-      spawnCount: 5
+      spawnCount: 3
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1796,7 +1796,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 5
-      spawnCount: 5
+      spawnCount: 3
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1806,7 +1806,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: 9158479010498979267, guid: 9551e93fefc15294c95a7df00446df57, type: 3}
       delay: 0
-      spawnCount: 5
+      spawnCount: 4
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1816,7 +1816,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: 2195969327153727486, guid: 3b812de32f35d5e4bac1896e07a5ee2e, type: 3}
       delay: 10
-      spawnCount: 4
+      spawnCount: 3
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1826,7 +1826,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
       delay: 0
-      spawnCount: 5
+      spawnCount: 3
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1836,7 +1836,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
       delay: 15
-      spawnCount: 10
+      spawnCount: 8
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
@@ -1846,7 +1846,7 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 0
-      spawnCount: 8
+      spawnCount: 6
       spacing: 2
       path: {fileID: 1004142431}
       HP: -1
