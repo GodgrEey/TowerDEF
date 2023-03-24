@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string FirstLevel;
+    public string cinematicLevel;
     public string Level;
     public string SecondLevel;
     public string ThirdLevel;
@@ -13,6 +13,9 @@ public class MainMenu : MonoBehaviour
      public GameObject LvlScreen;
 
      public GameObject CreditScreen;
+
+     public string FirstLevel;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +30,7 @@ public class MainMenu : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(FirstLevel);
+        SceneManager.LoadScene(cinematicLevel);
     }
     public void ChooseLevel()
     {
@@ -56,5 +59,10 @@ public void CloseOptions()
     public void CloseCredit()
     {
         CreditScreen.SetActive(false);
+    }
+
+    public void Level1()
+    {
+        SceneManager.LoadScene(FirstLevel);
     }
 }

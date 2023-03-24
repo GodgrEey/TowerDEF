@@ -199,7 +199,7 @@ MonoBehaviour:
   rscGainOnWin:
   - 0
   perkRscGainOnWin: 0
-  nextLevelName: 
+  nextLevelName: CinematiqueFin
   mainMenuName: 
 --- !u!1 &35430380
 GameObject:
@@ -1401,11 +1401,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6942324327352408503, guid: 6f9adf3b6915fd4468110ffeff1006c2, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f9adf3b6915fd4468110ffeff1006c2, type: 3}
 --- !u!4 &340417264 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4189396266764015904, guid: 6f9adf3b6915fd4468110ffeff1006c2, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6942324327352408503, guid: 6f9adf3b6915fd4468110ffeff1006c2, type: 3}
   m_PrefabInstance: {fileID: 340417263}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &344673528

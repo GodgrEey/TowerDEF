@@ -2841,7 +2841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6059458477727920038, guid: 613456662676be6448a89d24b9bb6627, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartGame
+      value: Level1
       objectReference: {fileID: 0}
     - target: {fileID: 6059458477727920038, guid: 613456662676be6448a89d24b9bb6627, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4368,13 +4368,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccebbea98f969c544a79df602c9f94b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstLevel: Level1
+  cinematicLevel: cinematique1
   Level: 
   SecondLevel: Level2
   ThirdLevel: Level3
   optionsScreen: {fileID: 476314397}
   LvlScreen: {fileID: 534617122}
   CreditScreen: {fileID: 240444277}
+  FirstLevel: Level1
 --- !u!1001 &2087266886
 PrefabInstance:
   m_ObjectHideFlags: 0
