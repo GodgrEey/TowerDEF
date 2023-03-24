@@ -1018,7 +1018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &260494079
 Transform:
   m_ObjectHideFlags: 0
@@ -7017,7 +7017,7 @@ MonoBehaviour:
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
+    - 2
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -7180,9 +7180,9 @@ MonoBehaviour:
     lifeGainOnCleared: 0
   - waveIdx: -1
     subWaveList:
-    - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
+    - prefab: {fileID: 511132826134738347, guid: dde71bdcaef20d046b83041729895992, type: 3}
       delay: 5
-      spawnCount: 6
+      spawnCount: 5
       spacing: 0.75
       path: {fileID: 0}
       HP: -1
@@ -7192,7 +7192,37 @@ MonoBehaviour:
       rscGain: ffffffffffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 5
-      spawnCount: 2
+      spawnCount: 5
+      spacing: 1
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
+      delay: 5
+      spawnCount: 3
+      spacing: 1
+      path: {fileID: 1004142431}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
+      delay: 0
+      spawnCount: 3
+      spacing: 1
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -199354529222564347, guid: b1ec8ef13efb7fa4e9f694b93676b2bc, type: 3}
+      delay: 0
+      spawnCount: 1
       spacing: 1
       path: {fileID: 0}
       HP: -1
@@ -7201,10 +7231,50 @@ MonoBehaviour:
       overrideRscGain: 0
       rscGain: ffffffffffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
-      delay: 5
-      spawnCount: 1
+      delay: 0
+      spawnCount: 3
       spacing: 1
-      path: {fileID: 1004142431}
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -2139911123367052691, guid: 94cd30c880a23634283a9e8fdf332f44, type: 3}
+      delay: 0
+      spawnCount: 3
+      spacing: 1
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
+      delay: 0
+      spawnCount: 3
+      spacing: 1
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: 9158479010498979267, guid: 9551e93fefc15294c95a7df00446df57, type: 3}
+      delay: 0
+      spawnCount: 3
+      spacing: 1
+      path: {fileID: 0}
+      HP: -1
+      SH: -1
+      speed: -1
+      overrideRscGain: 0
+      rscGain: ffffffffffffffff
+    - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
+      delay: 0
+      spawnCount: 2
+      spacing: 1
+      path: {fileID: 1506824754}
       HP: -1
       SH: -1
       speed: -1
@@ -10793,7 +10863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1083966768
 Transform:
   m_ObjectHideFlags: 0
@@ -15755,7 +15825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1157147309
 Transform:
   m_ObjectHideFlags: 0
