@@ -341,7 +341,7 @@ MonoBehaviour:
   lifeGainedOnDestroyedChance: 0
   lifeGainedOnDestroyed: 0
   expGainOnDestroyed: 0
-  rscGainOnDestroyed: 0200000000000000
+  rscGainOnDestroyed: 02000000
   lifeLostOnDestination: 1
   effectSpawn:
     obj: {fileID: 0}
