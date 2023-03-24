@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -1355,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -8691,7 +8691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []

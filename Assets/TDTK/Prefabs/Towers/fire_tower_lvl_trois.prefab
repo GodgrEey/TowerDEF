@@ -74,7 +74,6 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost:
     - 80
-    - 0
     sellValue:
     - 40
     - 0
@@ -144,8 +143,8 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
-  barrelPivot: {fileID: 0}
+  turretPivot: {fileID: 6087765507823778690}
+  barrelPivot: {fileID: 6087765507823778690}
   aimInXAxis: 1
   snapAiming: 1
   aimSpeed: 20
@@ -430,5 +429,10 @@ PrefabInstance:
 --- !u!4 &2447160989260269156 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fbdd5d7f18fdc1c45a1af62fa2dc78f8, type: 3}
+  m_PrefabInstance: {fileID: 2773292171148665231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6087765507823778690 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8214742675761797645, guid: fbdd5d7f18fdc1c45a1af62fa2dc78f8, type: 3}
   m_PrefabInstance: {fileID: 2773292171148665231}
   m_PrefabAsset: {fileID: 0}

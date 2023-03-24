@@ -126,7 +126,6 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost:
     - 25
-    - 0
     sellValue:
     - 10
     - 0
@@ -421,7 +420,8 @@ MonoBehaviour:
   buildPlatform: {fileID: 0}
   nodeID: 0
   unlockUpgradeViaPerk: 0
-  upgradeTowerList: []
+  upgradeTowerList:
+  - {fileID: -3172443544919972889, guid: 487e8a7ea4ee8d04da51f092225a4073, type: 3}
 --- !u!1001 &5071741302821972330
 PrefabInstance:
   m_ObjectHideFlags: 0

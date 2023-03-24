@@ -173,11 +173,9 @@ MonoBehaviour:
   regenerateRsc: 0
   regenModList:
   - 0
-  - 0
   regenMulList:
   - 1
-  - 1
-  rscList: 3200000000000000
+  rscList: 32000000
 --- !u!114 &17333177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +197,6 @@ MonoBehaviour:
   lifeRegen: 0
   lifeRegenMul: 1
   rscGainOnWin:
-  - 0
   - 0
   perkRscGainOnWin: 0
   nextLevelName: 
@@ -435,7 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -551,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -1536,7 +1533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -1893,7 +1890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -6860,7 +6857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -6980,7 +6977,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 1
-      rscGain: 0100000000000000
+      rscGain: 01000000
     - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 2
@@ -6990,7 +6987,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
       delay: 0.5
       spawnCount: 2
@@ -7000,7 +6997,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 2195969327153727486, guid: 3b812de32f35d5e4bac1896e07a5ee2e, type: 3}
       delay: 0
       spawnCount: 3
@@ -7010,7 +7007,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 12
     activeUnitCount: 0
     spawned: 0
@@ -7018,7 +7015,6 @@ MonoBehaviour:
     clean: 1
     rscGainOnCleared:
     - 2
-    - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
     lifeGainOnCleared: 0
@@ -7033,7 +7029,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -6861158800752285565, guid: 55dc437715c7e5c4badc7f49755ce066, type: 3}
       delay: 5
       spawnCount: 4
@@ -7043,7 +7039,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 4
@@ -7053,7 +7049,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -199354529222564347, guid: b1ec8ef13efb7fa4e9f694b93676b2bc, type: 3}
       delay: 2
       spawnCount: 4
@@ -7063,7 +7059,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
       delay: 2
       spawnCount: 4
@@ -7073,7 +7069,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 0
       spawnCount: 1
@@ -7083,7 +7079,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
@@ -7091,7 +7087,6 @@ MonoBehaviour:
     clean: 1
     rscGainOnCleared:
     - 3
-    - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
     lifeGainOnCleared: 0
@@ -7106,7 +7101,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -6861158800752285565, guid: 55dc437715c7e5c4badc7f49755ce066, type: 3}
       delay: 0
       spawnCount: 2
@@ -7116,7 +7111,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 511132826134738347, guid: dde71bdcaef20d046b83041729895992, type: 3}
       delay: 3
       spawnCount: 2
@@ -7126,7 +7121,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 2
       spawnCount: 1
@@ -7136,7 +7131,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
       delay: 0
       spawnCount: 3
@@ -7146,7 +7141,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 1
       spawnCount: 2
@@ -7156,7 +7151,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 2195969327153727486, guid: 3b812de32f35d5e4bac1896e07a5ee2e, type: 3}
       delay: 3
       spawnCount: 4
@@ -7166,14 +7161,13 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -7189,7 +7183,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 3
       spawnCount: 5
@@ -7199,7 +7193,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 6738667739556061399, guid: 5b81687c8f9816b4081289e753553d39, type: 3}
       delay: 5
       spawnCount: 3
@@ -7209,7 +7203,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -3779047507534319969, guid: eda98387e1ee8074f8b7f65fcd74ef71, type: 3}
       delay: 0
       spawnCount: 3
@@ -7219,7 +7213,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -199354529222564347, guid: b1ec8ef13efb7fa4e9f694b93676b2bc, type: 3}
       delay: 1
       spawnCount: 3
@@ -7229,7 +7223,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 3
       spawnCount: 3
@@ -7239,7 +7233,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -2139911123367052691, guid: 94cd30c880a23634283a9e8fdf332f44, type: 3}
       delay: 4
       spawnCount: 3
@@ -7249,7 +7243,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 7172264115679833924, guid: 930a78e182ce38f40b8b7ed0d8250435, type: 3}
       delay: 0
       spawnCount: 3
@@ -7259,7 +7253,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: 9158479010498979267, guid: 9551e93fefc15294c95a7df00446df57, type: 3}
       delay: 2
       spawnCount: 3
@@ -7269,7 +7263,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 2
       spawnCount: 2
@@ -7279,14 +7273,13 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -7302,14 +7295,13 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -7325,14 +7317,13 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -7348,7 +7339,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -1775669940590929717, guid: f5e1771a5b0991b41afdf50ebc02f2b3, type: 3}
       delay: 5
       spawnCount: 1
@@ -7358,7 +7349,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -4414593709302386248, guid: 24983eaa35fbe6944b762e5a09151f6b, type: 3}
       delay: 8
       spawnCount: 4
@@ -7368,7 +7359,7 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     - prefab: {fileID: -3910703336098638818, guid: d8dc82b63c28f0740be2099b6721b202, type: 3}
       delay: 5
       spawnCount: 4
@@ -7378,14 +7369,13 @@ MonoBehaviour:
       SH: -1
       speed: -1
       overrideRscGain: 0
-      rscGain: ffffffffffffffff
+      rscGain: ffffffff
     timeToNextWave: 5
     activeUnitCount: 0
     spawned: 0
     cleared: 0
     clean: 1
     rscGainOnCleared:
-    - 0
     - 0
     perkRscGainOnCleared: 0
     abilityRscGainOnCleared: 0
@@ -10526,7 +10516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000a0000000b000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -16355,7 +16345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -41190,7 +41180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []
@@ -46248,7 +46238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f402eaf3866654eaf9e48bed9daaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unavailablePrefabIDList: 0700000006000000
+  unavailablePrefabIDList: 07000000060000000b0000000a000000
   size: {x: 0, y: 0}
   walkable: 0
   pathList: []

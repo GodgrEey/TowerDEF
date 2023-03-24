@@ -94,7 +94,6 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost:
     - 0
-    - 0
     sellValue:
     - 0
     - 0

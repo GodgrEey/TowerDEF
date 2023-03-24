@@ -103,7 +103,7 @@ MonoBehaviour:
   prefabID: 10
   instanceID: -1
   unitName: "pi\xE8ge ralentissant"
-  icon: {fileID: 21300000, guid: a6e36b9cf504b994bbc81ae357c6c6b6, type: 3}
+  icon: {fileID: 21300000, guid: 829a07e22d8926144b367fea766317d9, type: 3}
   desp: Slow the enemies when they step on the trap       disappears after trapping
     10 enemies.
   canBeAttacked: 1
@@ -127,9 +127,7 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost:
     - 15
-    - 0
     sellValue:
-    - 0
     - 0
     hp: 1
     sh: 0

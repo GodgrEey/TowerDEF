@@ -75,7 +75,6 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost:
     - 55
-    - 0
     sellValue:
     - 27
     - 0
@@ -145,7 +144,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
+  turretPivot: {fileID: 9197676926598923706}
   barrelPivot: {fileID: 9197676926598923706}
   aimInXAxis: 1
   snapAiming: 1
